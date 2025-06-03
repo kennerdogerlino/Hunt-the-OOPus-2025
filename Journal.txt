@@ -4,4 +4,9 @@ Created the cave class document and wrote the first attributes (name and decript
 30/5/2025 - Write the main.py program to call the class and make the first cave object.
 Modified the attributes to set up name on initialisation
 Wrote setter and getter methods for each attributes. Started planning the layout of the caves.
-2/6/2025 - Wrote a dictionary attribute to store the links to other cave 
+2/6/2025 - Wrote a dictionary attribute to store the links to other cave
+Wrote and tested a method to print the linked_caves dictionary to the terminal.
+3/6/2025 - Added code to the main program to allpw the player to move between different cave objects.
+Set up a new Character class and test program.
+Created 'joyboy - The smelly Wumpus' in the test program and tested the conversation method.
+ 

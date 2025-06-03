@@ -1,5 +1,5 @@
+"""Imports cave to Cave"""
 from cave import Cave
-
 cavern = Cave("Cavern")
 cavern.set_description("A damp and dirty cave.")
 grotto = Cave("Grotto")
@@ -18,4 +18,3 @@ while True:
     current_cave.get_details()
     command = input("> ")
     current_cave = current_cave.move(command)
-    
