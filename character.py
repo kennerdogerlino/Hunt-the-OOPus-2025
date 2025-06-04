@@ -14,6 +14,7 @@ class Character:
 
     def set_conversation(self, conversation):
         """Sets what the character can say"""
+        self.conversation = conversation
 
     def talk(self):
         """Allows characters to talk to player"""
@@ -26,3 +27,7 @@ class Character:
         """Allows characters to fight with the player"""
         print(self.name + " doe not want to fight with you.")
         return True
+class Enemy(Character):
+    """Creates enemey class"""
+    def __init__(self, char_name, char_description):
+        super().__init__(char_name, char_description)
