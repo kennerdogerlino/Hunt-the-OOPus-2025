@@ -9,4 +9,7 @@ Wrote and tested a method to print the linked_caves dictionary to the terminal.
 3/6/2025 - Added code to the main program to allow the player to move between different cave objects.
 Set up a new Character class and test program.
 Created 'joyboy - The smelly Wumpus' in the test program and tested the conversation method.
- 
+ 4/6/2025 - Set up enemy sub-class from character class. 
+ Also added enemey weakness by introducing "combat_item" to "Joyboy" the enemy with "touching grass".
+Wrote a method for fight() that overrides the fight() method in the super-class
+Updated the char_text code to test the new sub-class objects (particularly the weakness and fight_methods)
