@@ -13,3 +13,6 @@ Created 'joyboy - The smelly Wumpus' in the test program and tested the conversa
  Also added enemey weakness by introducing "combat_item" to "Joyboy" the enemy with "touching grass".
 Wrote a method for fight() that overrides the fight() method in the super-class
 Updated the char_text code to test the new sub-class objects (particularly the weakness and fight_methods)
+6/6/2025 - Finishes testing the character in the char.test.py file. Added Joyboy obbject to the main program 
+and added it to the dunngeon object. Reworked the main loop to accept different inputs (moving, talking and fighting)
+- still need to finish the code to manage fighting.

@@ -1,4 +1,4 @@
-"""imports character to Character"""
+"""test"""
 from character import Enemy
 
 Joyboy = Enemy("Joyboy", "A dirty, smelly Bot")
