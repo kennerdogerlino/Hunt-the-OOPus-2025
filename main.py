@@ -20,14 +20,15 @@ dungeon.link_caves(grotto, "West")
 grotto.link_caves(dungeon, "East")
 
 current_cave = cavern
-while True:
+dead = False
+while dead == False:
     print("\n")
     current_cave.get_details()
     inhabitated = current_cave.get_character()
     if inhabitated is not None:
         inhabitated.describe()
     command = input("> ")
-    if command in ["North, East, South, West"]:
+    if command in ["North", "East", "South", "West"]:
         current_cave = current_cave.move(command)
     elif command == "Talk":
         if inhabitated is not None:
@@ -39,5 +40,6 @@ while True:
                 print("W's in the chat! You win the battle")
             else:
                 print("!Blasphemy! You lost the fight.")
+                dead = True
         else:
             print("There is no one here to fight with")

@@ -36,6 +36,7 @@ class Cave:
     def get_details(self):
         """gets details for the cave"""
         print(self.name)
+        print(self.description)
         print("====================")
         for direction, cave in self.linked_caves.items():
             print("The " + cave.get_name() + " is " + direction)

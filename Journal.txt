@@ -16,3 +16,4 @@ Updated the char_text code to test the new sub-class objects (particularly the w
 6/6/2025 - Finishes testing the character in the char.test.py file. Added Joyboy obbject to the main program 
 and added it to the dunngeon object. Reworked the main loop to accept different inputs (moving, talking and fighting)
 - still need to finish the code to manage fighting.
+10/6/25 - Completed the tutorial for Hunt The Wumpus. Started to make more ideas to continue on with the project.
