@@ -32,7 +32,7 @@ class Enemy(Character):
     """Creates enemey class"""
     def __init__(self, char_name, char_description):
         super().__init__(char_name, char_description)
-        self.weakness = None #he too storng bro, he joybjoy fr
+        self.weakness = None #he dont even go to school no more.
 
     def set_weakness(self, item_weakness):
         """Sets enemy weakness"""
@@ -48,3 +48,79 @@ class Enemy(Character):
             return True
         else:
             print(self.name + " swallows you whole! You died.")
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#ez free lines

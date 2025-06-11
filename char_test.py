@@ -1,12 +1,12 @@
 """test"""
 from character import Enemy
 
-Joyboy = Enemy("Joyboy", "A dirty, smelly Bot")
-Joyboy.describe()
-Joyboy.set_conversation("Come closer little one. I cannot see you.")
-Joyboy.talk()
-print(Joyboy)
-Joyboy.set_weakness("touching grass")
+chocolate10992 = Enemy("chocolate10992", "A dirty, smelly Bot")
+chocolate10992.describe()
+chocolate10992.set_conversation("Come closer little one. I cannot see you.")
+chocolate10992.talk()
+print(chocolate10992)
+chocolate10992.set_weakness("touching grass")
 
 fight_with = input("What you fight with cuh? ")
-Joyboy.fight(fight_with)
+chocolate10992.fight(fight_with)

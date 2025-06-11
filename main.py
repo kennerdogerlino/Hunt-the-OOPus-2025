@@ -1,4 +1,5 @@
 """Imports cave to Cave"""
+import os
 from cave import Cave
 from character import Enemy
 
@@ -9,10 +10,10 @@ grotto.set_description("A small cave with ancient markings.")
 dungeon = Cave("Dungeon")
 dungeon.set_description("A Large cave with a rack.")
 
-Joyboy = Enemy("Joyboy", "A dirty, smelly Bot")
-Joyboy.set_conversation("Come closer little one. I cannot see you.")
-Joyboy.set_weakness("touching grass")
-dungeon.set_character(Joyboy)
+chocolate10992 = Enemy("chocolate10992", "A dirty, smelly Bot")
+chocolate10992.set_conversation("Come closer little one. I cannot see you.")
+chocolate10992.set_weakness("touching grass")
+dungeon.set_character(chocolate10992)
 
 cavern.link_caves(dungeon, "South")
 dungeon.link_caves(cavern, "North")
@@ -43,3 +44,7 @@ while dead == False:
                 dead = True
         else:
             print("There is no one here to fight with")
+
+    def clear_console():
+        """Clears the console in terminal"""
+        os.system("cls" if os.name == "nt" else "clear")

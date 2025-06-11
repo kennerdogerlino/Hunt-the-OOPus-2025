@@ -1,4 +1,4 @@
-"""Class cave fr hunt the OOPus"""
+"""its a Cave class"""
 class Cave:
     """Defines attributes and methods for cave objects"""
     def __init__(self, cave_name):
