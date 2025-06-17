@@ -16,4 +16,15 @@ Updated the char_text code to test the new sub-class objects (particularly the w
 6/6/2025 - Finishes testing the character in the char.test.py file. Added Joyboy obbject to the main program 
 and added it to the dunngeon object. Reworked the main loop to accept different inputs (moving, talking and fighting)
 - still need to finish the code to manage fighting.
-10/6/25 - Completed the tutorial for Hunt The Wumpus. Started to make more ideas to continue on with the project.
+10/6/2025 - Completed the tutorial for Hunt The Wumpus. Started to make more ideas to continue on with the project.
+13/6/2025 - Came up with Idea to make the Game Terraria for the map of the game. The first idea of an Among us shaped map did
+not go well. not one bit...
+16/6/2025 - Continued working on my Terraria map, argueing with myself whether the level system or an open world with no restrictions. You level up when you travel through each level
+- The order of each level is forest, jungle, hallowed, and corruption.
+- started to change "cave" and "caverns" to "area" and "areas" to fit my terraria scenery. Messed up hard, I think. 
+17/6/2025 - Fixed the problem of changing cave/cavern to area/areas by deleting 'name', changing from 'def __init__name():' to 'def __init__():
+- Don't know how/why name was There
+- Continued planning the map and scenery; adding more areas to each biome, adding a Wise Hermit, asks you to choose 2 golden chests from "West" and "South".
+- West chest tranforms into golden chest mimic when chosen
+- South chest grants you to upgrade your iron sword to golden
+- Colour coded the areas according to their biome (except spawn: brown) 
