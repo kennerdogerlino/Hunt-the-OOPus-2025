@@ -28,3 +28,5 @@ not go well. not one bit...
 - West chest tranforms into golden chest mimic when chosen
 - South chest grants you to upgrade your iron sword to golden
 - Colour coded the areas according to their biome (except spawn: brown) 
+18/6/2025 - continued expanding my map in excel
+- Started putting the areas into my codespace 
